@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+body{
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	color: #FFFFFF;
+	background-color: #444444;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	padding:  0.3em 0em;
+  font-family: 'Major Mono Display', sans-serif;
+}
+h2{
+	font-size: 50px;
+  color: #F8D77E;
+	text-align: center;
+  padding-top: 1em;
+}
+p{
+
+}
+#weather {
+	font-size: 80px;
+	background-color: #222222;
+	width: 150px;
+	padding: 15px 10px ;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+#message{
+	font-size: 40px;
+	padding: 6px 3px;
+}
+.image-container {
+	width: 800px;
+}
+#image{
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	border: 1px solid red;
+}
+.container{
+	margin: 0 auto;*/
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-flow: column;
+	color: white;
+}
+
+/* media queries*/
+@media all and (min-width:540px) {
+
+  }
