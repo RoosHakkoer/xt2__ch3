@@ -67,5 +67,6 @@ margin-top: 0.4em;
 	}
 	.image-container{
 		width: 80%;
+		/* image niet over de hele width pagina */
 	}
 }

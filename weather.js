@@ -7,8 +7,8 @@ function getAPIweather() {
  	.then(function(response) {
  		console.log(response.main.temp);
 
+		//afronden op hele cijfers
 		var temp = Math.round(response.main.temp, 0);
-		//var request = ;
 
 		if(temp <=10){
 			//show temp
@@ -33,5 +33,5 @@ function getAPIweather() {
 	});
 
 }
-//aanroepen
+//aanroepen weather api
 getAPIweather();
