@@ -30,6 +30,7 @@ p{
 	text-align: center;
 }
 #message{
+	max-width: 14em;
 	font-size: 40px;
 	padding: 3px 3px;
 	margin-bottom: 0.5em;
