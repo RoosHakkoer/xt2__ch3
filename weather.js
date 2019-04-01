@@ -15,16 +15,16 @@ function getAPIweather() {
 			document.getElementById('weather').innerHTML = temp + ' °C ';
 			//show message
 			document.getElementById('message').innerHTML = "It is cold outside"+", "+"enjoy this image while landing";
-			//show cat picture
-			showCatPicture();
+			//show dog picture
+			showDogPicture();
 		}
 		else {
 			//show temp
-			document.getElementById('weather').innerHTML = temp + ' degrees';
+			document.getElementById('weather').innerHTML = temp + ' °C ';
 			//show message
-			document.getElementById('message').innerHTML = "The weather is pleasant";
-			//don't show cat picture
-			// show sun picture
+			document.getElementById('message').innerHTML = "The weather is pleasant"+", "+"enjoy this image while landing";
+			//show cat picture
+			showCatPicture();
 		}
 
  	})
