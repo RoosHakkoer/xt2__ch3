@@ -14,7 +14,7 @@ function getAPIweather() {
 			//show temp
 			document.getElementById('weather').innerHTML = temp + ' °C ';
 			//show message
-			document.getElementById('message').innerHTML = "It is cold outside"+", "+"enjoy this image while landing";
+			document.getElementById('message').innerHTML = "It is cold in The Hague"+", "+"enjoy this image while landing";
 			//show dog picture
 			showDogPicture();
 		}
@@ -22,7 +22,7 @@ function getAPIweather() {
 			//show temp
 			document.getElementById('weather').innerHTML = temp + ' °C ';
 			//show message
-			document.getElementById('message').innerHTML = "The weather is pleasant"+", "+"enjoy this image while landing";
+			document.getElementById('message').innerHTML = "The weather is pleasant in The Hague"+", "+"enjoy this image while landing";
 			//show cat picture
 			showCatPicture();
 		}
